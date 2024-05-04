@@ -63,6 +63,7 @@ export default ((opts?: GraphOptions) => {
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
+        {/*
         <div class="graph-outer">
           <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <svg
@@ -91,10 +92,10 @@ export default ((opts?: GraphOptions) => {
             />
           </svg>
         </div>
-        /*
+        
         <div id="global-graph-outer">
           <div id="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
-        </div>*/
+        </div>*/}
       </div>
     )
   }
