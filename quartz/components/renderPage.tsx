@@ -216,6 +216,10 @@ export function renderPage(
       <Head {...componentData} />
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
+          {/* 파란색 박스 추가 */}
+          <div style={{ width: '100%', height: '50px', backgroundColor: 'blue' }}></div>
+          {/* 이미지 추가 */}
+          {/* <img src="/path/to/logo.png" alt="Company Logo" style={{ height: '50px' }} /> */}
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
