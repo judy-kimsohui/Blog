@@ -45,6 +45,11 @@ async function buildQuartz(argv: Argv, mut: Mutex, clientRefresh: () => void) {
     allSlugs: [],
   }
 
+  // 노트가 없는 폴더도 업로드 하는 방법
+  
+  // Create index.md  
+  await createIndexMd()
+
   const perf = new PerfTimer()
   const output = argv.output
 
