@@ -218,11 +218,9 @@ export function renderPage(
         <div id="quartz-root" class="page">
           {/* 파란색 박스 추가 */}
           {/* <div class="header-image" style={{ width: '100%', height: '70px', backgroundColor: '#a7c0fe' }}></div>*/}
-          <div>
-            <img src="banner.png" alt="banner image" class="banner-image" style={{ height: '70px', overflow: 'hidden' }}/>
+          <div class="header-image" style={{ width: '100%', height: '70px' }}>
+            <img src="banner.png" alt="banner image" class="banner-image" style={{ overflow: 'hidden' }}/>
           </div>
-          {/* 이미지 추가 */}
-          {/* <img src="/path/to/logo.png" alt="Company Logo" style={{ height: '50px' }} /> */}
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
