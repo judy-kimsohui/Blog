@@ -218,10 +218,10 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           {/* 파란색 박스 추가 */}
-          <div className="header-image checkered" style={{ width: '100%', height: '90px', backgroundColor: '#a7c0fe', background: 'linear-gradient(45deg, #fff 25%, transparent 25%) 0 0/20px 20px, linear-gradient(45deg, #b6cbff 25%, transparent 25%) 10px 10px/20px 20px' }}></div>
+          <div className="header-image checkered" style={{ width: '100%', height: '90px', backgroundColor: '#a7c0fe', background: 'linear-gradient(45deg, #fff 25%, transparent 25%) 0 0/20px 20px, linear-gradient(45deg, #fff 25%, #b6cbff 25%) 10px 10px/20px 20px' }}></div>
           <div className="header-image" style={{ width: '100%', height: '2px', backgroundColor: '#a7c0fe' }}></div>
           <div class="header-image" style={{ width: '100%', height: '5px', backgroundColor: '#fff' }}></div>
-          <div class="header-image" style={{ width: '100%', height: '15px', backgroundColor: '#324886' }}></div>
+          <div class="header-image" style={{ width: '100%', height: '15px', backgroundColor: '#2d4277' }}></div>
           {/* <div class="header-image" style={{ width: '100%', height: '70px' }}>
             <img src={ bannerimage } alt="banner image" class="banner-image" style={{ overflow: 'hidden' }}/>
           </div>*/}
