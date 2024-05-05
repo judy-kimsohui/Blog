@@ -1,11 +1,19 @@
-module: {
-  rules: [
-    {
-      // babel loader
-    },
-    {
-      test: /\.(png|jpg|gif|svg)$/, // 확장자가 png, jpg, gif, svg인것에 대해서만 등록
-      loader: 'file-loader',
-    },  
-  ],
-},
+module.exports = {
+  // 다른 설정들...
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images/', // 이미지가 번들에 포함될 경로
+            },
+          },
+        ],
+      },
+    ],
+  },
+};
