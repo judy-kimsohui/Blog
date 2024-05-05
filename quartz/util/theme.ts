@@ -38,8 +38,8 @@ export function googleFontHref(theme: Theme) {
 
 export function RIDIBatangHref(theme: Theme) {
   const { code, header, body } = theme.typography
-  // return 'http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2'
-  return `http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2?code=${code}&header=${header}&body=${body}`
+  return 'http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2'
+  // return `http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2?code=${code}&header=${header}&body=${body}`
 }
 
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
