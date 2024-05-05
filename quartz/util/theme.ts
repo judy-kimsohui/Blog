@@ -36,6 +36,12 @@ export function googleFontHref(theme: Theme) {
   return `https://fonts.googleapis.com/css2?family=${code}&family=${header}:wght@400;700&family=${body}:ital,wght@0,400;0,600;1,400;1,600&display=swap`
 }
 
+export function RIDIBatangHref(theme: Theme) {
+  const { code, header, body } = theme.typography
+  // return 'http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2'
+  return `http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2?code=${code}&header=${header}&body=${body}`
+}
+
 export function joinStyles(theme: Theme, ...stylesheet: string[]) {
   return `
 ${stylesheet.join("\n\n")}

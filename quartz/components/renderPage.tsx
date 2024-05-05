@@ -217,7 +217,7 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           {/* 파란색 박스 추가 */}
-          <div style={{ width: '100%', height: '50px', backgroundColor: '#6eadf3' }}></div>
+          <div style={{ width: '100%', height: '100px', backgroundColor: '#a7c0fe' }}></div>
           {/* 이미지 추가 */}
           {/* <img src="/path/to/logo.png" alt="Company Logo" style={{ height: '50px' }} /> */}
           <Body {...componentData}>

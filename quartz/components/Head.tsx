@@ -1,7 +1,7 @@
 import { i18n } from "../i18n"
 import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
-import { googleFontHref } from "../util/theme"
+import { googleFontHref, RIDIBatangHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
@@ -24,9 +24,9 @@ export default (() => {
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
+            <link rel="preconnect" href="http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2" />
+            <link rel="preconnect" href="http://cdn.jsdelivr.net/gh/TetraTheta/RIDIBatang-subset/dist/webfont/RIDIBatang-subset.woff2" />
+            <link rel="stylesheet" href={RIDIBatangHref(cfg.theme)} />
           </>
         )}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
