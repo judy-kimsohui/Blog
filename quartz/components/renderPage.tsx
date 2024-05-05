@@ -219,7 +219,7 @@ export function renderPage(
           {/* 파란색 박스 추가 */}
           {/* <div class="header-image" style={{ width: '100%', height: '70px', backgroundColor: '#a7c0fe' }}></div>*/}
           <div class="header-image" style={{ width: '100%', height: '70px' }}>
-            <img src="banner.png" alt="banner image" class="banner-image" style={{ overflow: 'hidden' }}/>
+            <img src="./banner.png" alt="banner image" class="banner-image" style={{ overflow: 'hidden' }}/>
           </div>
           <Body {...componentData}>
             {LeftComponent}
