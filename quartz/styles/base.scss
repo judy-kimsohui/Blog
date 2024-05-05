@@ -171,11 +171,12 @@ a {
     }
 
     & .sidebar.left {
-      left: calc(calc(300vw - $pageWidth) / 2 - $sidePanelWidth);
+      left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
       @media all and (max-width: $fullPageWidth) {
         gap: 0;
         align-items: center;
       }
+      margin-top: 20px;
     }
 
     & .sidebar.right {
@@ -187,6 +188,7 @@ a {
           min-width: 140px;
         }
       }
+      margin-top: 20px;
     }
   }
 
