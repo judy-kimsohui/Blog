@@ -8,7 +8,7 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
-import bannerimage from './banner.png';
+import bannerimage from 'banner.png';
 
 interface RenderComponents {
   head: QuartzComponent

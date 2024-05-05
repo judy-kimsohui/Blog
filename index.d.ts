@@ -3,10 +3,7 @@ declare module "*.scss" {
   export = content
 }
 
-declare module '*.png' {
-  const content: string;
-  export default content;
-}
+declare module "*.png";
 
 // dom custom event
 interface CustomEventMap {
