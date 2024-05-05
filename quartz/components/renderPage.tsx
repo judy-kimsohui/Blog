@@ -8,6 +8,7 @@ import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
+import bannerimage from './banner.png';
 
 interface RenderComponents {
   head: QuartzComponent
@@ -217,9 +218,9 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           {/* 파란색 박스 추가 */}
-          {/* <div class="header-image" style={{ width: '100%', height: '70px', backgroundColor: '#a7c0fe' }}></div>*/}
+          <div class="header-image" style={{ width: '100%', height: '70px', backgroundColor: '#a7c0fe' }}></div>
           <div class="header-image" style={{ width: '100%', height: '70px' }}>
-            <img src="./banner.png" alt="banner image" class="banner-image" style={{ overflow: 'hidden' }}/>
+            <img src={ bannerimage } alt="banner image" class="banner-image" style={{ overflow: 'hidden' }}/>
           </div>
           <Body {...componentData}>
             {LeftComponent}
