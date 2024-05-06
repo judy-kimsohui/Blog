@@ -197,6 +197,7 @@ export function renderPage(
 
   const LeftComponent = (
     <div class="left sidebar">
+      <div class="left-header" style={{ width: '100%', height: '7px', backgroundColor: '#5a3323' }}></div>
       {left.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}
@@ -205,7 +206,6 @@ export function renderPage(
 
   const RightComponent = (
     <div class="right sidebar">
-      <div class="right-header" style={{ width: '100%', height: '7px', backgroundColor: '#7c4f3b' }}></div>
       {right.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}

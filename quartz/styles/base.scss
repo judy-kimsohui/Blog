@@ -155,7 +155,7 @@ a {
       display: flex;
       flex-direction: column;
       gap: 2rem;
-      top: 50px;
+      top: 20px;
       width: $sidePanelWidth;
       margin-top: $topSpacing;
       box-sizing: border-box;
@@ -166,7 +166,7 @@ a {
         flex-direction: row;
         padding: 0;
         width: initial;
-        margin-top: 1rem;
+        margin-top: 0.5rem;
       }
     }
 
