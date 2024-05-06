@@ -212,8 +212,16 @@ Quartz는 리액트로 만들어졌고, 주로 "quartz" 폴더 안을 보면 스
 	"blog/quartz/styles/variables.scss"의 topSpacing를 조절하면 된다.
 
 7. 그래프뷰 삭제
-	"blog/quartz/components/Graph.tsx"에서 <h3>{i18n(cfg.locale).components.graph.title}</h3> <div class="graph-outer"></div> 부분을 모두 주석처리했다.
+	"blog/quartz/components/Graph.tsx"에서 아래 부분을 모두 주석처리했다.
+```
+<h3>{i18n(cfg.locale).components.graph.title}</h3> 
+<div class="graph-outer"></div> 
+```
 
 9. 헤더 추가
-	"blog/quartz/components/renderPage.tsx"의 <div id="quartz-root" class="page"> 아래에 <div class="header-image" style={{ width: '100%', height: '12px', backgroundColor: '#2d4277' }}></div> 를 추가했다.
-
+	"blog/quartz/components/renderPage.tsx"에 추가했다.
+```
+<div id="quartz-root" class="page">
+<div class="header-image" style={{ width: '100%', height: '12px', backgroundColor: '#2d4277' }}></div>
+```
+	
