@@ -53,14 +53,13 @@ crontab을 활용해서 자동으로 커밋 후 푸시해주는 환경을 만들
 ```
 # git-backup.sh
 
-WorkDir="/Users/folder"
+WorkDir="/Users/folder/blog"
 
 cd $WorkDir
 git add .
 git commit -m "backup $(date)"
 
-git push origin main
-git push origin2 main
+git push
 ```
 
 터미널로 이동해서, 다음과 같이 입력한다.
