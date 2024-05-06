@@ -192,25 +192,34 @@ npx quartz sync
 
 Quartz는 리액트로 만들어졌고, 주로 "quartz" 폴더 안을 보면 스크립트와 정적 파일 등을 확인할 수 있다. 살살 수정하면 된다.
 
+
 1. favicon 수정하기
 	 "quartz" 폴더가 아닌, "public" 폴더에 들어가면 icon.png가 있다. 원하는 그림으로 바꾸면 favicon을 수정할 수 있다. 참고로, og-image도 수정이 가능하다.
 
+
 2. 블로그 내 요소 색상 변경하기
 	 "blog/quartz.config.ts" 경로에서, QuartzConfig에서 폰트 색상을 변경할 수 있다. Light 모드와 Dark 모드를 변경할 수 있다.
+	 
 	 나는 색상을 고를 때 [colorbase](https://colorbase.app/) 사이트를 자주 활용한다.
+
 
 3. fotter 내용 수정하기
 	"blog/quartz/components/Footer.tsx"에서 Footer의 p 부분을 주석 처리하면 create with.. 문구를 삭제할 수 있다. 주석 처리는 `{/* */}` 로 한다.
+	 
 	내용은 "blog/quartz.layout.ts" 경로에서, SharedLayout "links" 부분을 수정하면 된다.
+
 
 4. Home 내용 수정하기
 	상단의 블로그명을 클릭하면 기본 소개 페이지가 나오는데, "blog/content/index.md"에서 내용 수정이 가능하다.
 
+
 5. font 수정하기
 	"blog/quartz/util/theme.ts"에서 변경 가능하다.
 
+
 6. 오른쪽, 왼쪽 레이아웃 위치 조정하기
 	"blog/quartz/styles/variables.scss"의 topSpacing를 조절하면 된다.
+
 
 7. 그래프뷰 삭제
 	"blog/quartz/components/Graph.tsx"에서 아래 부분을 모두 주석처리했다.
@@ -218,6 +227,7 @@ Quartz는 리액트로 만들어졌고, 주로 "quartz" 폴더 안을 보면 스
 <h3>{i18n(cfg.locale).components.graph.title}</h3> 
 <div class="graph-outer"></div> 
 ```
+
 
 9. 헤더 추가
 	"blog/quartz/components/renderPage.tsx"에 추가했다.
