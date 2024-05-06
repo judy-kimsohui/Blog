@@ -197,7 +197,7 @@ export function renderPage(
 
   const LeftComponent = (
     <div class="left sidebar">
-      <div class="left-header" style={{ width: '100%', height: '7px', backgroundColor: '#5a3323' }}></div>
+      <div class="left-header" style={{ width: '90%', height: '7px', backgroundColor: '#6a4638' }}></div>
       {left.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}
