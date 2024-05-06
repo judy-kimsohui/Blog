@@ -205,6 +205,7 @@ export function renderPage(
 
   const RightComponent = (
     <div class="right sidebar">
+      <div class="right-header" style={{ width: '100%', height: '7px', backgroundColor: '#7c4f3b' }}></div>
       {right.map((BodyComponent) => (
         <BodyComponent {...componentData} />
       ))}
