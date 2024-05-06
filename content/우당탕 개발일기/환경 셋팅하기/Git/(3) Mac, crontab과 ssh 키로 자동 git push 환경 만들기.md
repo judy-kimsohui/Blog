@@ -21,7 +21,7 @@ date:
 ssh-keygen -t ed25519 -C "깃허브 등록 메일"
 ```
 
-다음과 같은 문장이 나오면 Enter 누르자.
+다음과 같은 문장이 나오면 Enter를 누르자.
 ```
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again:
@@ -106,7 +106,7 @@ You've successfully authenticated, but GitHub does not provide shell access.
 
 git에 올리고자 하는 폴더 경로
 ```
-/Users/folder
+/Users/folder
 ```
 
 Repository 경로
