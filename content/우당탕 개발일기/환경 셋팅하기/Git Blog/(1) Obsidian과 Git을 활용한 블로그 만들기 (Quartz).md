@@ -197,6 +197,7 @@ Quartz는 리액트로 만들어졌고, 주로 "quartz" 폴더 안을 보면 스
 
 2. 블로그 내 요소 색상 변경하기
 	 "blog/quartz.config.ts" 경로에서, QuartzConfig에서 폰트 색상을 변경할 수 있다. Light 모드와 Dark 모드를 변경할 수 있다.
+	 나는 색상을 고를 때 [colorbase](https://colorbase.app/) 사이트를 자주 활용한다.
 
 3. fotter 내용 수정하기
 	"blog/quartz/components/Footer.tsx"에서 Footer의 p 부분을 주석 처리하면 create with.. 문구를 삭제할 수 있다. 주석 처리는 `{/* */}` 로 한다.
