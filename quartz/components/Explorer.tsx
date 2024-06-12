@@ -85,7 +85,7 @@ export default ((userOpts?: Partial<Options>) => {
     return (
       
       <div class={classNames(displayClass, "explorer")}>
-        <div style={{ height: "20px" }}/>
+        <div style={{ height: "30px" }}/>
         <button
           type="button"
           id="explorer"
@@ -94,8 +94,7 @@ export default ((userOpts?: Partial<Options>) => {
           data-savestate={opts.useSavedState}
           data-tree={jsonTree}
         >
-          {/* <h1>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h1> */}
-          <h1>Contents</h1>
+        <h1>Contents</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="14"

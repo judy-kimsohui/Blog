@@ -219,7 +219,8 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           {/* 파란색 박스 추가 */}
-          <div class="header-image" style={{ width: '100%', height: '12px', backgroundColor: '#2d4277' }}></div>
+          {/* <div class="header-image" style={{ width: '100%', height: '12px', backgroundColor: '#2d4277' }}></div>*/}
+          
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
