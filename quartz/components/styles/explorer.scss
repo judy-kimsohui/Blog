@@ -68,6 +68,14 @@ button#explorer {
       pointer-events: all;
     }
   }
+
+  &.folder-button {
+    color: var(--dark);
+  }
+
+  &.folder-title {
+    color: var(--tertiary);
+  }
 }
 
 svg {
