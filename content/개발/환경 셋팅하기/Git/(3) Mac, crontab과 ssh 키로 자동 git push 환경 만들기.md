@@ -179,6 +179,7 @@ esc를 눌러 편집 모드 종료 후 읽기 모드로 돌아오고, :wq를 입
 
 만약 오류가 난다면, "/Users/folder/git-backup" 경로에서 터미널을 열어 다음과 같이 파일을 직접 실행해보자.
 ```
+chmod +x git-backup.sh
 ./git-backup.sh
 ```
 
