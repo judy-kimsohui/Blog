@@ -43,6 +43,11 @@ button#explorer {
 }
 
 #explorer-content {
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   list-style: none;
   overflow: hidden;
   max-height: none;
@@ -66,6 +71,7 @@ button#explorer {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
+      font-weight: $semiBoldWeight;
     }
   }
 
@@ -120,7 +126,7 @@ svg {
     & span {
       font-size: 0.95rem;
       display: inline-block;
-      color: var(--secondary);
+      color: var(--dark);
       font-weight: $semiBoldWeight;
       margin: 0;
       line-height: 1.5rem;
