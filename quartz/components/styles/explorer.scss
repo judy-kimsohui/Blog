@@ -44,10 +44,6 @@ button#explorer {
 
 #explorer-content {
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
   list-style: none;
   overflow: hidden;
   max-height: none;
@@ -93,6 +89,11 @@ svg {
 }
 
 .folder-container {
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   flex-direction: row;
   display: flex;
   align-items: center;
