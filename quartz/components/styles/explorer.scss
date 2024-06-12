@@ -89,11 +89,6 @@ svg {
 }
 
 .folder-container {
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
   flex-direction: row;
   display: flex;
   align-items: center;
