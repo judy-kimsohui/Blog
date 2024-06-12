@@ -217,12 +217,6 @@ a {
   }
 }
 
-#quartz-body {
-  width: 100%; 
-  display: flex;
-  flex-direction: column;
-}
-
 .footnotes {
   margin-top: 2rem;
   border-top: 1px solid var(--lightgray);
@@ -488,11 +482,6 @@ video {
   border-radius: 5px;
 }
 
-.spacer {
-  color: var(--dark) !important;
-  flex: 1 1 auto;
-}
-
 ul.overflow,
 ol.overflow {
   max-height: 400;
@@ -529,4 +518,9 @@ ol.overflow {
 .katex-display {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+.spacer {
+  color: var(--dark);
+  flex: 1 1 auto;
 }
