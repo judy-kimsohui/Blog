@@ -154,12 +154,12 @@ export async function handleCreate(argv) {
     await fs.promises.writeFile(
       path.join(contentFolder, "index.md"),
       `---
-title: Welcome to Judy Blog !
----
+        title: Welcome to Judy Blog !
+        ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-`,
+        This is a blank Quartz installation.
+        See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+      `,
     )
   }
 
