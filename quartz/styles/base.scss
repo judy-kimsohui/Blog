@@ -42,8 +42,6 @@ ul,
 .math {
   color: var(--darkgray);
   fill: var(--darkgray);
-  overflow-wrap: anywhere;
-  hyphens: auto;
 }
 
 .math {
@@ -289,7 +287,6 @@ h6 {
     transition: opacity 0.2s ease;
     transform: translateY(-0.1rem);
     font-family: var(--codeFont);
-    user-select: none;
   }
 
   &[id]:hover > a {
