@@ -4,15 +4,8 @@
 
 html {
   scroll-behavior: smooth;
-  text-size-adjust: none;
   // overflow-x: hidden;
   width: 100vw;
-
-  overflow: hidden;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
 }
 
 body,
