@@ -10,7 +10,7 @@ title: Welcome to Judy's Blog
 <p>
 가까운 미래에 웹개발 백엔드 직무로 취업하여 커리어를 쌓는 것을 목표로 하고 있습니다.
 <br>
-언젠가는 스위스에서 아름다운 경관을 바라보며 코딩하는 휴가를 보내는 꿈을 가지고 있습니다. ㅎㅎ
+여행하는 것을 좋아해서 언젠가는 스위스에서 아름다운 경관을 바라보며 코딩하는 휴가를 보내는 꿈을 가지고 있습니다. ㅎㅎ
 </p>
 <p>
 이 블로그는 제가 개발 공부를 위해 지식을 정리한 공간입니다.<br>저와 비슷하게 개발 공부를 하는 사회 초년생 여러분께 이 블로그가 많은 도움이 되었으면 좋겠습니다.
@@ -25,7 +25,7 @@ title: Welcome to Judy's Blog
  <p>
  We are aiming to build a career by getting a job as a web development backend in the near future.
  <br>
- One day, I have a dream of spending a vacation in Switzerland while looking at the beautiful scenery. lol
+I like to travel, so one day I have a dream of spending a vacation in Switzerland. lol
  </p>
  <p>
  This blog is a space that summarizes my knowledge for development.
