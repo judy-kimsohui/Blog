@@ -20,7 +20,9 @@ title: Welcome to Judy's Blog
 <br>
 <br>
  <p>
- Welcome to the blog. <br> I have spent a great school days in Gyeongju, where many Korean capital and cultural assets are many. I studied development. I had a positive personality, I was curious and strong.
+ Welcome to the blog. <br> I have spent a great school days in Gyeongju, where many Korean capital and cultural assets are many.
+ <br> In high school, I studied mathematics and science deeply, and I studied in college in Seoul.
+ <br> I had a positive personality, I was curious and strong.
  </p>
  <p>
  We are aiming to build a career by getting a job as a web development backend in the near future.
