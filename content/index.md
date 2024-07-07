@@ -31,12 +31,13 @@ title: Welcome to Judy's Blog
  This blog is a space that summarizes my knowledge for development.
  </p>
  thank you! have a great time :)
- <br>
 <br>
- 
- contact : <a href="mailto:sohuikim2020@naver.com">sohuikim2020@naver.com</a>
 <br>
- 
+<br>
+
+contact : <a href="mailto:sohuikim2020@naver.com">sohuikim2020@naver.com</a>
+<br>
+
 [notion portfolio - kor](https://tiny-helicopter-4d0.notion.site/cdd9676f8af34393aab175904a01e58b?pvs=4) 
 [notion portfolio - eng](https://tiny-helicopter-4d0.notion.site/cdd9676f8af34393aab175904a01e58b?pvs=4)
 
