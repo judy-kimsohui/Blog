@@ -25,6 +25,30 @@ title: Welcome to Judy's Blog
 감사합니다! 즐거운 시간 보내세요 :)
 
 
+Welcome to the blog!
+
+ I am a wonderful person who spent his school days in Gyeongju.
+
+ In high school, I studied mathematics and science deeply and studied development in Seoul.
+
+ I have a pretty optimistic and positive personality, and I'm curious.
+
+ I like to play Disney movies and like Mabinogi games.
+
+ We are aiming to build a career by getting a job as a web development backend in the near future.
+
+ One day, I have a dream of spending a vacation in Switzerland while looking at the beautiful scenery. lol
+
+ This blog is a space where I organized my knowledge for development.
+
+ I hope this blog will help you a lot for the beginners who are studying for development similarly to me.
+
+ If you are seniors, please contact us if you like it.
+
+ thank you! have a great time :)
+
+ <a href="mailto:sohuikim2020@naver.com">sohuikim2020@naver.com</a>
+
 [notion portfolio - kor](https://tiny-helicopter-4d0.notion.site/cdd9676f8af34393aab175904a01e58b?pvs=4)
 [notion portfolio - eng](https://tiny-helicopter-4d0.notion.site/cdd9676f8af34393aab175904a01e58b?pvs=4)
 
