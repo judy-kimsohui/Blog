@@ -5,7 +5,7 @@ title: Welcome to Judy's Blog
 <br>
 <br>
 <p>
-블로그에 방문해주신 여러분을 환영합니다 :)<br>저는 한국의 옛 수도, 문화재가 많은 경주에서 멋진 학창 시절을 보낸 사람입니다.<br>고등학교 때는 수학과 과학을 깊게 공부했고, 서울에서 대학 생활을 하며 개발 공부를 했습니다.<br>긍정적인 성격을 가졌으며, 호기심이 많고 추진력이 강합니다.
+블로그에 방문해주신 여러분을 환영합니다.<br>저는 한국의 옛 수도, 문화재가 많은 경주에서 멋진 학창 시절을 보낸 사람입니다.<br>고등학교 때는 수학과 과학을 깊게 공부했고, 서울에서 대학 생활을 하며 개발 공부를 했습니다.<br>긍정적인 성격을 가졌으며, 호기심이 많고 추진력이 강합니다.
 </p>
 <p>
 가까운 미래에 웹개발 백엔드 직무로 취업하여 커리어를 쌓는 것을 목표로 하고 있습니다.
@@ -19,7 +19,7 @@ title: Welcome to Judy's Blog
 <br>
 <br>
  <p>
- Welcome to the blog :) <br> I have spent a great school days in Gyeongju, where many Korean capital and cultural assets are many. I studied development. <br> I had a positive personality, I was curious and strong.
+ Welcome to the blog. <br> I have spent a great school days in Gyeongju, where many Korean capital and cultural assets are many. I studied development. <br> I had a positive personality, I was curious and strong.
  </p>
  <p>
  We are aiming to build a career by getting a job as a web development backend in the near future.
