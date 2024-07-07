@@ -18,6 +18,7 @@ title: Welcome to Judy's Blog
 감사합니다! 즐거운 시간 보내세요 :)
 <br>
 <br>
+<br>
  <p>
  Welcome to the blog. <br> I have spent a great school days in Gyeongju, where many Korean capital and cultural assets are many. I studied development. <br> I had a positive personality, I was curious and strong.
  </p>
@@ -31,7 +32,7 @@ title: Welcome to Judy's Blog
  </p>
  thank you! have a great time :)
  <br>
-
+<br>
  
  contact : <a href="mailto:sohuikim2020@naver.com">sohuikim2020@naver.com</a>
 <br>
