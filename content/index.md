@@ -10,11 +10,13 @@ title: Welcome to Judy's Blog
 
 저는 꽤 낙천적이고 긍정적인 성격을 지녔으며, 호기심이 많은 사람입니다.
 
-디즈니 영화를 즐겨보고 마비노기 게임을 좋아합니다.
+<br>
 
 가까운 미래에 웹개발 백엔드 직무로 취업하여 커리어를 쌓는 것을 목표로 하고 있습니다.
 
 언젠가는 스위스에서 아름다운 경관을 바라보며 코딩하는 휴가를 보내는 꿈을 가지고 있습니다. ㅎㅎ
+
+<br>
 
 이 블로그는 제가 개발 공부를 위해 지식을 정리한 공간입니다.
 
@@ -24,6 +26,8 @@ title: Welcome to Judy's Blog
 
 감사합니다! 즐거운 시간 보내세요 :)
 
+<br>
+<br>
 
 Welcome to the blog!
 
@@ -33,11 +37,14 @@ Welcome to the blog!
 
  I have a pretty optimistic and positive personality, and I'm curious.
 
- I like to play Disney movies and like Mabinogi games.
+<br>
 
  We are aiming to build a career by getting a job as a web development backend in the near future.
 
  One day, I have a dream of spending a vacation in Switzerland while looking at the beautiful scenery. lol
+
+
+<br>
 
  This blog is a space where I organized my knowledge for development.
 
@@ -47,7 +54,7 @@ Welcome to the blog!
 
  thank you! have a great time :)
 
- <a href="mailto:sohuikim2020@naver.com">sohuikim2020@naver.com</a>
+ contact : <a href="mailto:sohuikim2020@naver.com">sohuikim2020@naver.com</a>
 
 [notion portfolio - kor](https://tiny-helicopter-4d0.notion.site/cdd9676f8af34393aab175904a01e58b?pvs=4)
 [notion portfolio - eng](https://tiny-helicopter-4d0.notion.site/cdd9676f8af34393aab175904a01e58b?pvs=4)
